@@ -1,0 +1,1035 @@
+{
+    "passages": [
+      {
+        "text": "You wake up in the middle of a pasture. Your head is pulsing and you have no recollection of anything that has happened beforehand. The wind blows gently and shakes the flowers, which you now realize form a compass. There are red, blue, yellow and white flowers forming arrows in each direction. Your eye is caught by the glint of light coming from some metal on the ground. Looking closer, you see that each flower patch has a plaque with a single letter: N, S, E, W.\n\n[[1 -> Red Path (North)]]\n[[2 -> Blue Path (East)]]\n[[3 -> Yellow Path (South)]]\n[[4 -> White Path (West)]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Red Path (North)",
+            "pid": "2"
+          },
+          {
+            "name": "2 ",
+            "link": " Blue Path (East)",
+            "pid": "3"
+          },
+          {
+            "name": "3 ",
+            "link": " Yellow Path (South)",
+            "pid": "4"
+          },
+          {
+            "name": "4 ",
+            "link": " White Path (West)",
+            "pid": "5"
+          }
+        ],
+        "name": "Pasture",
+        "pid": "1",
+        "position": {
+          "x": "1943",
+          "y": "939"
+        }
+      },
+      {
+        "text": "Walking along the path, you find yourself in a forest. Listening to the birds and rabbits as you go along, you nearly trip over a rock. However, you catch yourself and notice that the rock is bisecting the path into two. On the path to the right, there are stones neatly placed to make it comfortable to walk on. The other path you notice has been unused for quite some time. Looking down the path you see that the trees are scorched and covered in ash.\n\n[[1 -> Burnt Path (Left)]]\n[[2 -> Stone Path (Right)]]\n[[3 ->Pasture]]\n",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Burnt Path (Left)",
+            "pid": "6"
+          },
+          {
+            "name": "2 ",
+            "link": " Stone Path (Right)",
+            "pid": "7"
+          },
+          {
+            "name": "3 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Red Path (North)",
+        "pid": "2",
+        "position": {
+          "x": "1939",
+          "y": "774"
+        }
+      },
+      {
+        "text": "As you walk along, you notice that all of the trees are slowly turning into evergreens. Unusually, you start to see snowflakes fall as you walk by. It is the middle of summer and it isn't known in this area to snow very often. Off the path, you see a cabin that is in terrible shape. When you woke up in the pasture you were not equipped to handle cold weather. The cabin could have supplies to help you bear the cold.\n\n[[1 -> Cabin]]\n[[2 -> Evergreen Trail]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Cabin",
+            "pid": "14"
+          },
+          {
+            "name": "2 ",
+            "link": " Evergreen Trail",
+            "pid": "15"
+          }
+        ],
+        "name": " Blue Path (East)",
+        "pid": "3",
+        "position": {
+          "x": "2095",
+          "y": "938"
+        }
+      },
+      {
+        "text": "As you walk along the yellown path, you notice that there is more and more sand present in the dirt. The humidity is rising as well. Off to the side, you can see the hut of a blacksmith.\n\n[[1 -> Blacksmith]]\n[[2 -> Desert]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Blacksmith",
+            "pid": "31"
+          },
+          {
+            "name": "2 ",
+            "link": " Desert",
+            "pid": "32"
+          }
+        ],
+        "name": " Yellow Path (South)",
+        "pid": "4",
+        "position": {
+          "x": "1941",
+          "y": "1079"
+        }
+      },
+      {
+        "text": "Walking along the white path. you begin to see some very strange things. For one, all of the green grass and plants are beginning to turn purple. Additonally, all of the forest animals are starting to glow an eerie white. Off to the side you see a hut that you feel belongs to a witch.\n\n[[1 -> Witch's Hut]]\n[[2 -> Purple Forest]]\n[[3 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Witch's Hut",
+            "pid": "43"
+          },
+          {
+            "name": "2 ",
+            "link": " Purple Forest",
+            "pid": "44"
+          },
+          {
+            "name": "3 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " White Path (West)",
+        "pid": "5",
+        "position": {
+          "x": "1790",
+          "y": "947"
+        }
+      },
+      {
+        "text": "Continuing down the path, the forest becomes more and more burned. Eventually, you cannot hear any signs of life anymore, with exception to the bugs eating the cooked carcasses. The trail of fire and death ends at the entrance of a cave with quite a large boulder in front of it. Being around ten times your size you could never hope to move it. Forutnately, there is a wide enough opening to the cave that you could, if you wished, manage to get inside the cave. There is a loud noise coming from the cave, almost akin to snoring.\n\n[[1 -> Cave]]\n[[2 -> Red Path (North)]] \n[[3 -> Human remains]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Cave",
+            "pid": "8"
+          },
+          {
+            "name": "2 ",
+            "link": " Red Path (North)",
+            "pid": "2"
+          },
+          {
+            "name": "3 ",
+            "link": " Human remains",
+            "pid": "12"
+          }
+        ],
+        "name": " Burnt Path (Left)",
+        "pid": "6",
+        "position": {
+          "x": "1799",
+          "y": "644"
+        }
+      },
+      {
+        "text": "As you walk along the stone path, you are lead into a village set up next to the road.\n\n[[1 -> Village]]\n[[2 -> Red Path (North)]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Village",
+            "pid": "9"
+          },
+          {
+            "name": "2 ",
+            "link": " Red Path (North)",
+            "pid": "2"
+          }
+        ],
+        "name": " Stone Path (Right)",
+        "pid": "7",
+        "position": {
+          "x": "2050",
+          "y": "650"
+        }
+      },
+      {
+        "text": "As you venture deep into the cave, you hear a loud clash. The light from the outside world has been snuffed out. The boulder has been moved and so you are forced to continue forward. After what feels like days wandering, the cave once again lights up. You turn to see what the illumination is. Out of the darkness you see a dragon with flames falling out of its mouth. You hardly have time to scream before he sets you aflame. You have died.\n\nDespite death, you still feel as if some part of you is alive. That there could be another chance to live again. You have the urge to hit 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Cave",
+        "pid": "8",
+        "position": {
+          "x": "1600",
+          "y": "650"
+        }
+      },
+      {
+        "text": "Walking into the village, you are greeted by kind faces and pleasent smiles. Everyone there seems hospitible. Up ahead you see a temple made out of darkened and purple obsidian. It is a little ways away from the village but it catches your eye.\n\n[[1 -> Obsidian Temple]]\n[[2 -> Talk to Villager]]\n[[2 -> Stone Path (Right)]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Obsidian Temple",
+            "pid": "10"
+          },
+          {
+            "name": "2 ",
+            "link": " Talk to Villager",
+            "pid": "29"
+          },
+          {
+            "name": "2 ",
+            "link": " Stone Path (Right)",
+            "pid": "7"
+          }
+        ],
+        "name": " Village",
+        "pid": "9",
+        "position": {
+          "x": "2050",
+          "y": "500"
+        }
+      },
+      {
+        "text": "You approach the temple and walk around its exterior. The volcanic glass is jagged, and you are careful not to touch its surface too much lest you slice your hand open. On the side of the temple you notice some symbols and pictures. They all depict what seems to be the entire world soaked in fire. You touch these symbols and notice that the entire building feels warm.\n\n[[1 -> Lake of Fire]]\n[[2 -> Village]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Lake of Fire",
+            "pid": "11"
+          },
+          {
+            "name": "2 ",
+            "link": " Village",
+            "pid": "9"
+          }
+        ],
+        "name": " Obsidian Temple",
+        "pid": "10",
+        "position": {
+          "x": "1931",
+          "y": "354"
+        }
+      },
+      {
+        "text": "Surely, you think, this must be an illusion by a wizard. After all, lakes are made of water, and this fire like substance is not similar to any natural phenomena. Confidently, you plunge into the lake. It is not an illusion. YOu begin to drown and burn at the same time. You have died.\n\nDespite the fact that your skin is now the consistancy of burnt wood, you dont feel quite dead. You don't feel alive either. It is something uniqe, perhaps a chance to begin anew. You have the urge to press 1.\n\n[[1 ->Pasture]]\n\n",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Lake of Fire",
+        "pid": "11",
+        "position": {
+          "x": "1935",
+          "y": "215"
+        }
+      },
+      {
+        "text": "There is a charred skull, turned to coal by intense heat. Invvestigating further you find more bones and a sekeletal hand holding a note.\n\n[[1 -> Note]]\n[[2 -> Burnt Path (Left)]] \n",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Note",
+            "pid": "13"
+          },
+          {
+            "name": "2 ",
+            "link": " Burnt Path (Left)",
+            "pid": "6"
+          }
+        ],
+        "name": " Human remains",
+        "pid": "12",
+        "position": {
+          "x": "1797",
+          "y": "508"
+        }
+      },
+      {
+        "text": "The parchment has been seared so some letters are illegible:\n\n\"I'm s_r_y. I W__t ma_e it _ut of h_re. I l__e y_u.\n\n\t-__j_ye\"\n[[1 -> Burnt Path (Left)]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Burnt Path (Left)",
+            "pid": "6"
+          }
+        ],
+        "name": " Note",
+        "pid": "13",
+        "position": {
+          "x": "1695",
+          "y": "371"
+        }
+      },
+      {
+        "text": "Upon closer inspection you notice there are cobwebs in the corners and broken windows. The building is covered in split wood and age. Axe marks decorate the exterior. There is a door with a giant dorr knocker on it. There is also a window that is close enough to the ground and broken enough to climb in.You could go in and steal the supplies. Or you could knock on the door to see if anyone is home.\n\n[[1 -> Knock on door]]\n[[2 -> Go through window]]\n[[3 -> Blue Path (East)]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Knock on door",
+            "pid": "16"
+          },
+          {
+            "name": "2 ",
+            "link": " Go through window",
+            "pid": "17"
+          },
+          {
+            "name": "3 ",
+            "link": " Blue Path (East)",
+            "pid": "3"
+          }
+        ],
+        "name": " Cabin",
+        "pid": "14",
+        "position": {
+          "x": "2098",
+          "y": "803"
+        }
+      },
+      {
+        "text": "The dirt below you feet begins to crunch as you go along. It is cold enough now that the ground below you has frozen. Combined with the winds, the cold makes you reconsider the blue path. Ahead of you, you see what appears to no longer be forest but instead glaciers. As you look around, you can see hot steam flowing from somewhere behind the trees. YOu think about if it is worth it to take more time to investigate or if you should just get to the end of the trail as fast as you can.\n\n[[1 -> Steam]]\n[[2 -> Glaciers]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Steam",
+            "pid": "19"
+          },
+          {
+            "name": "2 ",
+            "link": " Glaciers",
+            "pid": "20"
+          }
+        ],
+        "name": " Evergreen Trail",
+        "pid": "15",
+        "position": {
+          "x": "2221",
+          "y": "939"
+        }
+      },
+      {
+        "text": "A lumbering man answers your knocks. He is around 7 feet tall and has a bushy beard. His eyes hold a unique mixture of generousity and sorrow, but you know that he would, if he so wished, be able to quickly take you down. \"What do you want traveller?\" he bellows as you try to figure out if you want to ask for supplies or apologize and leave.\n\n[[1 -> Evergreen Trail]]\n[[2 -> Ask for supplies]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Evergreen Trail",
+            "pid": "15"
+          },
+          {
+            "name": "2 ",
+            "link": " Ask for supplies",
+            "pid": "18"
+          }
+        ],
+        "name": " Knock on door",
+        "pid": "16",
+        "position": {
+          "x": "2217",
+          "y": "694"
+        }
+      },
+      {
+        "text": "YOu manage to flip into the cabin and find food and warmer clothes. As you stuff your bags, a lumbering man comes up behind you. This is his cabin, and you have tresspassed. Before you even get the chance to turn around your head is seperated clean from your body with his axe. You have died.\n\nDespite being dead, you still feel something. Not that you feel alive, but that you have a chance to be that way again. An opportunity to exist once more. You have the urge to hit 1.\n\n[[1 ->Pasture]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Go through window",
+        "pid": "17",
+        "position": {
+          "x": "2225",
+          "y": "808"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.\n\n[[1 -> Evergreen Trail]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Evergreen Trail",
+            "pid": "15"
+          }
+        ],
+        "name": " Ask for supplies",
+        "pid": "18",
+        "position": {
+          "x": "2340",
+          "y": "695"
+        }
+      },
+      {
+        "text": "The stewam is coming from a hot springs! It allures you with the promise of warmth and safety. \n\n[[1 -> Hot Springs]]\n[[2 -> Evergreen Trail]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Hot Springs",
+            "pid": "21"
+          },
+          {
+            "name": "2 ",
+            "link": " Evergreen Trail",
+            "pid": "15"
+          }
+        ],
+        "name": " Steam",
+        "pid": "19",
+        "position": {
+          "x": "2216",
+          "y": "1082"
+        }
+      },
+      {
+        "text": "No longer is there any dirt below your feet. It is all ice. Trying your best not to slip and eat ice, you stumble along, no path to guide you through the winter storm. To keep from going in circles, you walk along a mountain made of ice. Keeping your hand agaisnt the surface as you go, you nearly stumble in as there is a hole in the ice. Additonally, you see a faint glow off in the distance.\n\n[[1 -> Ice Cavern]]\n[[2 -> Glow]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Ice Cavern",
+            "pid": "22"
+          },
+          {
+            "name": "2 ",
+            "link": " Glow",
+            "pid": "23"
+          }
+        ],
+        "name": " Glaciers",
+        "pid": "20",
+        "position": {
+          "x": "2357",
+          "y": "937"
+        }
+      },
+      {
+        "text": "You give in and hop into the hot water. You feel rejuvenated and pleasantly warm. That is, until the water starts getting hot. The water starts boiling and yet you can't escape. Something is holding on to your legs. Out of the water comes a mermaid covered in scales. She grins at you with sharp teeth. You are about to be her meal. You have died.\n\nAlthough you became lunch, you still have thoughts. Not quite alive but not fully dead. You feel a calling to start over. You have the urge to press 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Hot Springs",
+        "pid": "21",
+        "position": {
+          "x": "2340",
+          "y": "1079"
+        }
+      },
+      {
+        "text": "The mountain provides some nice relief from the winds. YOu are now in a tunnel, and it slopes downwward into some dark depths that you cannot see. Do you take the risk?\n\n[[1 -> The Depths]]\n[[2 -> Glaciers]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " The Depths",
+            "pid": "24"
+          },
+          {
+            "name": "2 ",
+            "link": " Glaciers",
+            "pid": "20"
+          }
+        ],
+        "name": " Ice Cavern",
+        "pid": "22",
+        "position": {
+          "x": "2499",
+          "y": "1047"
+        }
+      },
+      {
+        "text": "The glow that you see is coming from a building labeled \"Inn\".\n\n[[1 -> Inn]]\n[[2 -> Glaciers]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Inn",
+            "pid": "25"
+          },
+          {
+            "name": "2 ",
+            "link": " Glaciers",
+            "pid": "20"
+          }
+        ],
+        "name": " Glow",
+        "pid": "23",
+        "position": {
+          "x": "2499",
+          "y": "854"
+        }
+      },
+      {
+        "text": "You trot down the path. It then becomes a slope and you slide all the way down and crash into a body of water. It is so very cold and you start to lose feeling in your limbs. The way you came in is much too slippery and you can't claw your way out. You spend your last moments not knowing what will happen first; drowning or freezing to death. You have died.\n\nYour skin has lost all of its color and your blood has frozen, yet you still feel there is a chance to live again. You have the urge to press 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " The Depths",
+        "pid": "24",
+        "position": {
+          "x": "2647",
+          "y": "1051"
+        }
+      },
+      {
+        "text": "\"Welcome to our Inn! What can I do for you traveller?\"\n\n[[1 -> Glaciers]]\n[[2 -> Talk to Inn Keeper]]\n[[3 -> Sea Glass Temple]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Glaciers",
+            "pid": "20"
+          },
+          {
+            "name": "2 ",
+            "link": " Talk to Inn Keeper",
+            "pid": "30"
+          },
+          {
+            "name": "3 ",
+            "link": " Sea Glass Temple",
+            "pid": "26"
+          }
+        ],
+        "name": " Inn",
+        "pid": "25",
+        "position": {
+          "x": "2646",
+          "y": "852"
+        }
+      },
+      {
+        "text": "You approach the temple. You can see right through the colorful surface. The inside looks somehow like a beach, in such an unusal manner you are unsure how it can fit inside of a building.\n\n[[1 -> Beach]]\n[[2 -> Inn]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Beach",
+            "pid": "27"
+          },
+          {
+            "name": "2 ",
+            "link": " Inn",
+            "pid": "25"
+          }
+        ],
+        "name": " Sea Glass Temple",
+        "pid": "26",
+        "position": {
+          "x": "2794",
+          "y": "957"
+        }
+      },
+      {
+        "text": "You walk inside and all of the sudden it is warm and sunny. You no longer see the walls of the temple, or the exit. In front of you you see an ocean that stretches as far as your eyes can see. Seeing no end to the coast line, your only choice is to enter the waters.\n\n[[1 -> Endless Ocean]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Endless Ocean",
+            "pid": "28"
+          }
+        ],
+        "name": " Beach",
+        "pid": "27",
+        "position": {
+          "x": "2931",
+          "y": "959"
+        }
+      },
+      {
+        "text": "You begin to swim out into the deppths, hoping to find something out there in the water. YOu turn around to look at the coast but the coast is gone. All that surrounds you is ocean. Determined to survive, you swim as hard as you can in search of safe land. Eventually though, you lose hope. Your body is exhausted and you cannot keep yourself afloat any longer. You sucumb to your aches and drown. You have died.\n\nYour lungs are filled with salt water but you still feel there is hope. You have the urge to press 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Endless Ocean",
+        "pid": "28",
+        "position": {
+          "x": "3076",
+          "y": "960"
+        }
+      },
+      {
+        "text": "\"You know, they say that that temple is a cursed place. For hundreds of years, my family has shared stories about the obsidian palace that leads into the depths of hell. I never was brave enough to go there in my youth, and now I am much too old and I have a family of my own. May the gods and magic be on your side if you go there traveller.\"\n\n[[1 -> Village]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Village",
+            "pid": "9"
+          }
+        ],
+        "name": " Talk to Villager",
+        "pid": "29",
+        "position": {
+          "x": "2195",
+          "y": "503"
+        }
+      },
+      {
+        "text": "\"This place used to be warm you know. Practically a tropical paradise. The ancient people here used to make buildings out of sea glass! It is decorative and they say those people were such a tight commmunity that they didn't care if others could see into their houses and trusted that their neighbors would respect privacy. The only thing that remains of their culture is that Sea Glass temple up ahead. There are those who say it is cursed and do their best to stay away. Personally, I think of it as interesting, and I would go if I didn't love my Inn so much\"\n\n[[1 -> Inn]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Inn",
+            "pid": "25"
+          }
+        ],
+        "name": " Talk to Inn Keeper",
+        "pid": "30",
+        "position": {
+          "x": "2649",
+          "y": "718"
+        }
+      },
+      {
+        "text": "\"Greetings wanderer. What can I do for you?\"\n\n[[1 -> Talk to Blacksmith]]\n[[2 -> Yellow Path (South)]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Talk to Blacksmith",
+            "pid": "33"
+          },
+          {
+            "name": "2 ",
+            "link": " Yellow Path (South)",
+            "pid": "4"
+          }
+        ],
+        "name": " Blacksmith",
+        "pid": "31",
+        "position": {
+          "x": "1789",
+          "y": "1080"
+        }
+      },
+      {
+        "text": "All of the trees dissapeared long ago and were replaced by cacti. The dry wind blows sand in your face, slowing your pace considerably. In the distance you see a huge skeleton of a giant animal that looks like it lived long ago. Looking at it will take some time to do.\n\n[[1 -> Fossil]]\n[[2 -> Deep Desert]]\n",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Fossil",
+            "pid": "34"
+          },
+          {
+            "name": "2 ",
+            "link": " Deep Desert",
+            "pid": "35"
+          }
+        ],
+        "name": " Desert",
+        "pid": "32",
+        "position": {
+          "x": "1939",
+          "y": "1224"
+        }
+      },
+      {
+        "text": "\"I used to live in a Village up north. Nice peaceful little place, but it had this creepy temple place nearby. One night I had a nightmare that Hades himself came from the depths and took me away. After that, I got real paranoid and blew town. This place is as far as I was willing to go from that temple. There is a Town if you keep heading straight south, but you'll have to go through a desert. The heat was never my kind of thing, but the choice is yours.\"\n\n[[1 -> Blacksmith]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Blacksmith",
+            "pid": "31"
+          }
+        ],
+        "name": " Talk to Blacksmith",
+        "pid": "33",
+        "position": {
+          "x": "1788",
+          "y": "1229"
+        }
+      },
+      {
+        "text": "You approach the fossil and notice it has two foreign objects placed into its eye sockets. In one is a beautiful ruby, probably the size of both of your hands cupped together. One could become fabulously weathly by selling this gem. In the other is what appears to be a normal stone.\n\n[[1 -> Ruby]]\n[[2 -> Stone]]\n[[3 -> Desert]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Ruby",
+            "pid": "36"
+          },
+          {
+            "name": "2 ",
+            "link": " Stone",
+            "pid": "37"
+          },
+          {
+            "name": "3 ",
+            "link": " Desert",
+            "pid": "32"
+          }
+        ],
+        "name": " Fossil",
+        "pid": "34",
+        "position": {
+          "x": "2083",
+          "y": "1230"
+        }
+      },
+      {
+        "text": "You wander deeper into the desert. Up ahead tiy see a cluster of sandstone buildings.\n\n[[1 -> Town]]\n[[2 -> Desert]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Town",
+            "pid": "38"
+          },
+          {
+            "name": "2 ",
+            "link": " Desert",
+            "pid": "32"
+          }
+        ],
+        "name": " Deep Desert",
+        "pid": "35",
+        "position": {
+          "x": "1933",
+          "y": "1375"
+        }
+      },
+      {
+        "text": "You pull on the ruby as hard as you can and with a satisfying \"pop\" it comes loose. You hold the gem in your hand and imagine the wealthy life you will now live. Suddenly, the gem turns into dust in your hands. As you scramble in the sands to get your gem back, a sandstorm suddenly picks up all around you. You gasp for air, but it only makes your lungs burn more. Your chest feels heavy from the weight of the sand in your lungs. You have died.\n\nYou feel that there is a chance to start over, and maybe make better choices. You have the urge to press 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Ruby",
+        "pid": "36",
+        "position": {
+          "x": "2214",
+          "y": "1350"
+        }
+      },
+      {
+        "text": "You use all of your might to pull on the stone and it comes out with a satisfying \"pop\". You hold the stone in your hand, and it begins to turn to dust. What it leaves behind is a spherical contraption the likes of which you have not seen before. It is incredibly intricate.\n\n[[1 -> Deep Desert]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Deep Desert",
+            "pid": "35"
+          }
+        ],
+        "name": " Stone",
+        "pid": "37",
+        "position": {
+          "x": "2214",
+          "y": "1225"
+        }
+      },
+      {
+        "text": "You notice that hardly anyone in the town meets your eyes. You don't feel that they are hostile towards you but rather that you do not exist in a way. Up ahead, you see a strange temple that is made out of metal. It is unusal to see so much of a resource go into one building.\n\n[[1 -> Get the attention of a townsperson]]\n[[2 -> Metal Temple]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Get the attention of a townsperson",
+            "pid": "39"
+          },
+          {
+            "name": "2 ",
+            "link": " Metal Temple",
+            "pid": "40"
+          }
+        ],
+        "name": " Town",
+        "pid": "38",
+        "position": {
+          "x": "1929",
+          "y": "1517"
+        }
+      },
+      {
+        "text": "\"You are not from here. Strange. Not many people are willing to make the trek out to our small town. Usually if they come they are after that.\"\n\nHe points to the Metal Temple.\n\n\"Lots of thieves come around here thinking that the temple is valuable because it looks so expensive. If you are here to steal from the temple I won't judge. But you should know I have never seen any thief go in there and come out.\"\n\n[[1 -> Town]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Town",
+            "pid": "38"
+          }
+        ],
+        "name": " Get the attention of a townsperson",
+        "pid": "39",
+        "position": {
+          "x": "2083",
+          "y": "1510"
+        }
+      },
+      {
+        "text": "You approach the metal temple and you can see your own face in the reflection. It is a very sophisticated building with tons of work put into its design. You place your hand on the building and notice that it is vibrating ever so slightly.\n\n[[1 -> Cave Entrance]]\n[[2 -> Town]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Cave Entrance",
+            "pid": "41"
+          },
+          {
+            "name": "2 ",
+            "link": " Town",
+            "pid": "38"
+          }
+        ],
+        "name": " Metal Temple",
+        "pid": "40",
+        "position": {
+          "x": "1928",
+          "y": "1674"
+        }
+      },
+      {
+        "text": "The inside of the temple is like a maze. There are so many paths by the time you get to what you believe to be the center you have no idea how to leave this place again. In the center, there is a cave. From the cave you can feel the rumbling getting stronger and you can see a light coming from the inside.\n\n[[1 -> The Device]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " The Device",
+            "pid": "42"
+          }
+        ],
+        "name": " Cave Entrance",
+        "pid": "41",
+        "position": {
+          "x": "1926",
+          "y": "1817"
+        }
+      },
+      {
+        "text": "You walk in to see something that is strange. It is a glowing ball, almost like the sun, with a dark center. Surrounding it are giant rings that are spinning faster than you have seen anything else move. Everything around you is shaking. You wander closer to it, but you get too close. You feel everything in your body suddenly vibrate. Your bones shatter like glass. You have died.\n\nLaying there on the ground as a pile of dust, you feel that you have another chance. You have the urge to press 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " The Device",
+        "pid": "42",
+        "position": {
+          "x": "1923",
+          "y": "1970"
+        }
+      },
+      {
+        "text": "You approach the witches hut when all of the sudden she casts a curse upon you! You are now ar=ound an inch tall! Looking to escape the witch, you see two places to escape to.\n\n[[1 -> Dirt Pile]]\n[[2 -> Mushroom]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Dirt Pile",
+            "pid": "45"
+          },
+          {
+            "name": "2 ",
+            "link": " Mushroom",
+            "pid": "46"
+          }
+        ],
+        "name": " Witch's Hut",
+        "pid": "43",
+        "position": {
+          "x": "1794",
+          "y": "822"
+        }
+      },
+      {
+        "text": "The purple grass feels soft and warm like wool. All of the creatures prance and emit their glow. You turn to the sky above you and notice that it is pink, and graceful clouds of blue and yellow make their way across its canvas. Up ahead by a stream you see what appears to be a commune.\n\n[[1 -> Commune]]\n[[2 -> White Path (West)]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Commune",
+            "pid": "47"
+          },
+          {
+            "name": "2 ",
+            "link": " White Path (West)",
+            "pid": "5"
+          }
+        ],
+        "name": " Purple Forest",
+        "pid": "44",
+        "position": {
+          "x": "1657",
+          "y": "952"
+        }
+      },
+      {
+        "text": "You burrow a small hole in the dirt and the witch loses sight of you. Unfortuantely, the dirt pile you picked isn't a dirt pile; it is an ant hill. Although you run, the ants are faster and you perish to the bugs. You have died.\n\nLaying there torn about, you feel as if there is a chance to start anew. You have the urge to press 1.\n\n[[1 ->Pasture]] ",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " Dirt Pile",
+        "pid": "45",
+        "position": {
+          "x": "1673",
+          "y": "817"
+        }
+      },
+      {
+        "text": "Behind the mushroom you find a seed. You wait out the witch and she finally gives up and leaves. You eat the seed and return to normal size.\n\n[[1 -> Purple Forest]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Purple Forest",
+            "pid": "44"
+          }
+        ],
+        "name": " Mushroom",
+        "pid": "46",
+        "position": {
+          "x": "1557",
+          "y": "822"
+        }
+      },
+      {
+        "text": "The faces that meet you meet you with warm smiles. Everyone here is barefoot, and the place has gardens that all members pick the fruits from. Up ahead you see a marvelous temple made out of marble.\n\n[[1 -> Talk to Commune Member]]\n[[2 -> Talk to The Blind Man]]\n[[3 -> Marble Temple]]\n[[4 -> Purple Forest]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Talk to Commune Member",
+            "pid": "48"
+          },
+          {
+            "name": "2 ",
+            "link": " Talk to The Blind Man",
+            "pid": "49"
+          },
+          {
+            "name": "3 ",
+            "link": " Marble Temple",
+            "pid": "50"
+          },
+          {
+            "name": "4 ",
+            "link": " Purple Forest",
+            "pid": "44"
+          }
+        ],
+        "name": " Commune",
+        "pid": "47",
+        "position": {
+          "x": "1524",
+          "y": "957"
+        }
+      },
+      {
+        "text": "\"Hello strange traveller! I haven't seen you around these parts before. Well, you are always welcome to stay! We would be glad to have you!\"\n\nYou inquire about a blind man you see who is very elderly and has a differnt demeanor than the rest of the members.\n\n\"Oh, nobody knows his name. We took him in wandering out from the forest. We have tried to figure out where he came from, but he tends to remain quiet and use as little resources as possible.\"\n\nYou inquire about the Marble Temple.\n\n\"Those who wander here ask us about that building. We were blessed with these magical lands by the god. That temple is where it lives. It is a misdeed to go there. We are thankful for the lands we do have, and we dare not push the deal further\"\n\n[[1 -> Commune]]\n[[2 -> Talk to The Blind Man]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Commune",
+            "pid": "47"
+          },
+          {
+            "name": "2 ",
+            "link": " Talk to The Blind Man",
+            "pid": "49"
+          }
+        ],
+        "name": " Talk to Commune Member",
+        "pid": "48",
+        "position": {
+          "x": "1370",
+          "y": "843"
+        }
+      },
+      {
+        "text": "\"You think I don't know what you have done. The attrocities you have committed. I am blind and yet I see the error of your ways. You wonder why you wake up in that pasture and feel your body ache as if you had been through great physical trauma. You truly believe that you are an innocent wanderer in a strange magical land? This place was built for you, for all of those like you. The murderers, the sinners, those who lived their lives only to do evil. So go ahead, press your little numbers and try to escape. The truth is, you belong here. Forever.\"\n\n[[1 -> Commune]]\n[[2 -> Marble Temple]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Commune",
+            "pid": "47"
+          },
+          {
+            "name": "2 ",
+            "link": " Marble Temple",
+            "pid": "50"
+          }
+        ],
+        "name": " Talk to The Blind Man",
+        "pid": "49",
+        "position": {
+          "x": "1365",
+          "y": "1063"
+        }
+      },
+      {
+        "text": "You walk around the outside and feel a power pulsing from within. The building is covered in pictographs of the gods. It appears that all seven of them are torturing the likes of man.\n\n[[1 -> Commune]]\n[[2 -> The Storm]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": " Commune",
+            "pid": "47"
+          },
+          {
+            "name": "2 ",
+            "link": " The Storm",
+            "pid": "51"
+          }
+        ],
+        "name": " Marble Temple",
+        "pid": "50",
+        "position": {
+          "x": "1152",
+          "y": "968"
+        }
+      },
+      {
+        "text": "As you walk in, you notice an intricite pattern on the floor. It is in the shape of a compass, with arrows similar in color to the flowers you began in. As you walk towards the center, you slip and begin falling up. You look at what you are falling into and you notice the temple has no roof. Instead, it is a raging storm, full of tornadoes, lighting and wind. You are pulled into the storm and torn apart. You have died.\n\nYou feel miserable. You know you have no choice but to press 1.\n\n[[1 ->Pasture]]",
+        "links": [
+          {
+            "name": "1 ",
+            "link": "Pasture",
+            "pid": "1"
+          }
+        ],
+        "name": " The Storm",
+        "pid": "51",
+        "position": {
+          "x": "1005",
+          "y": "972"
+        }
+      }
+    ],
+    "name": "Magic Quest",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "A35CE1E3-A4C2-44A2-8227-E60797B5C46F"
+  }
